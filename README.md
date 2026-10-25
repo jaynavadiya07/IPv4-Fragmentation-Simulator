@@ -1,8 +1,24 @@
 # NetVista 3D — IPv4 Fragmentation Simulator
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)
+[![Deployment Status](https://img.shields.io/badge/Deployment-Live%20Online-brightgreen?style=flat&logo=streamlit)](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
+[![RFC](https://img.shields.io/badge/RFC-791%20Compliant-orange)](https://datatracker.ietf.org/doc/html/rfc791)
+
 > **Student ID:** 25CS052 | **Learner Group:** Advanced  
 > **Course:** ITUC201 – Fundamentals of Computer Networks 2026-27  
 > **Topic:** IPv4 fragmentation across unequal MTUs
+
+---
+
+## 🌐 Live Application
+
+The simulator is deployed and live on Streamlit Community Cloud:  
+👉 **[Open IPv4 Fragmentation Simulator Live App](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)**
+
+You can test and visualize IPv4 fragmentation, unequal MTU paths, and hole-descriptor reassembly directly in your browser with zero installation.
+
+---
 
 ## Overview
 
@@ -21,7 +37,13 @@ following RFC 791 rules (20-byte header, 8-byte offset alignment, MF/DF flags).
 
 ## Quick Start
 
+### Local Setup
+
 ```bash
+# Clone the repository
+git clone https://github.com/jaynavadiya07/IPv4-Fragmentation-Simulator.git
+cd IPv4-Fragmentation-Simulator
+
 # Install dependencies
 pip3 install -r requirements.txt
 
@@ -35,11 +57,12 @@ python3 fragmentation_engine.py
 ## Project Structure
 
 ```
-NETVISTA-3D/
+IPv4-Fragmentation-Simulator/
 ├── app.py                    # Streamlit web application (main entry point)
 ├── fragmentation_engine.py   # Core IPv4 fragmentation simulation engine
 ├── requirements.txt          # Python dependencies
-├── README.md                 # This file
+├── README.md                 # Project documentation & live links
+├── .gitignore                # Clean Git ignore rules
 └── .streamlit/
     └── config.toml           # Streamlit theme configuration (light mode)
 ```

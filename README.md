@@ -1,7 +1,7 @@
 # NetVista 3D — IPv4 Fragmentation Simulator
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)
-[![Deployment Status](https://img.shields.io/badge/Deployment-Live%20Online-brightgreen?style=flat&logo=streamlit)](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ipv4-simulator.streamlit.app/)
+[![Deployment Status](https://img.shields.io/badge/Deployment-Live%20Online-brightgreen?style=flat&logo=streamlit)](https://ipv4-simulator.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![RFC](https://img.shields.io/badge/RFC-791%20Compliant-orange)](https://datatracker.ietf.org/doc/html/rfc791)
 
@@ -14,7 +14,7 @@
 ## 🌐 Live Application
 
 The simulator is deployed and live on Streamlit Community Cloud:  
-👉 **[Open IPv4 Fragmentation Simulator Live App](https://ipv4-fragmentation-simulator-hofn3wxkebv6bhozkpgtvd.streamlit.app/)**
+👉 **[Open IPv4 Fragmentation Simulator Live App](https://ipv4-simulator.streamlit.app/)**
 
 You can test and visualize IPv4 fragmentation, unequal MTU paths, and hole-descriptor reassembly directly in your browser with zero installation.
 
